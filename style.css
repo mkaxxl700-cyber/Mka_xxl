@@ -1,0 +1,68 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+.m1 { background-color: #1D1E1E; background-image: radial-gradient(circle at 12% 35%, rgba(28, 69, 82, 0.45) 0%, transparent 35%), radial-gradient(circle at 15% 75%, rgba(28, 69, 82, 0.45) 0%, transparent 35%); color: #FFFFFD; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+.m2 { max-width: 1152px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+.m3 { padding-top: 24px; padding-bottom: 24px; display: flex; align-items: center; justify-content: space-between; }
+.m4 { display: flex; align-items: center; gap: 32px; font-size: 14px; }
+.m5 { color: #D1D5DB; text-decoration: none; transition: 0.2s; }
+.m5:hover { color: #FFFFFF; }
+.m6 { color: #FFFFFF; font-weight: 600; border-bottom: 2px solid #D6EF0E; padding-bottom: 4px; }
+.m7 { background-color: #D6EF0E; color: #FFFFFF; font-weight: 600; font-size: 14px; padding: 14px 32px; border: none; border-radius: 8px; cursor: pointer; transition: 0.2s; }
+.m7:hover { background-color: #c2d90c; }
+.m8 { padding-top: 64px; padding-bottom: 64px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 48px; align-items: center; }
+.m9 { font-family: 'Playfair Display', serif; font-size: 56px; font-weight: 700; line-height: 1.15; }
+.m10 { color: #D6EF0E; }
+.m11 { color: #D1D5DB; font-size: 14px; margin-top: 20px; max-width: 420px; line-height: 1.6; }
+.m12 { margin-top: 32px; display: flex; align-items: center; gap: 28px; }
+.m13 { font-size: 14px; font-weight: 600; color: #FFFFFF; text-decoration: none; transition: 0.2s; }
+.m13:hover { color: #D6EF0E; }
+.m14 { margin-top: 56px; display: flex; align-items: center; gap: 40px; }
+.m15 { display: flex; flex-direction: column; }
+.m16 { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700; }
+.m17 { color: #9CA3AF; font-size: 12px; margin-top: 4px; }
+.m18 { height: 40px; width: 1px; background-color: rgba(214, 239, 14, 0.4); }
+.m19 { position: relative; display: flex; justify-content: flex-end; }
+.m20 { position: relative; width: 100%; max-width: 420px; }
+.m21 { width: 100%; height: 440px; object-fit: cover; border-radius: 16px; }
+.m22 { background-color: #131E3A; border-top: 2px solid #D6EF0E; border-radius: 12px; padding: 20px; width: 256px; position: absolute; bottom: -32px; right: -20px; }
+.m23 { display: flex; justify-content: space-between; font-size: 12px; color: #9CA3AF; }
+.m24 { display: flex; justify-content: space-between; font-size: 14px; font-weight: 700; color: #FFFFFF; margin-top: 4px; }
+.m25 { width: 100%; margin-top: 16px; padding: 10px; border-radius: 8px; border: 1px solid #D6EF0E; background: transparent; color: #D6EF0E; font-size: 12px; font-weight: 600; cursor: pointer; transition: 0.2s; }
+.m25:hover { background-color: #D6EF0E; color: #090F1D; }
+.m26 { padding-top: 96px; padding-bottom: 96px; }
+.m27 { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 48px; }
+.m28 { font-family: 'Playfair Display', serif; font-size: 40px; font-weight: 700; line-height: 1.2; max-width: 440px; }
+.m29 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.m30 { background-color: #131E3A; border-top: 1px solid rgba(214, 239, 14, 0.4); border-radius: 16px; padding: 16px; }
+.m31 { width: 100%; height: 256px; object-fit: cover; border-radius: 12px; }
+.m32 { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; }
+.m33 { font-size: 16px; font-weight: 600; }
+.m34 { font-size: 12px; font-weight: 700; color: #FFFFFF; }
+.m35 { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #2A3441; }
+.m36 { font-size: 11px; color: #9CA3AF; }
+.m37 { font-size: 12px; font-weight: 600; margin-top: 2px; }
+.m38 { padding: 8px 16px; border-radius: 8px; border: 1px solid #D6EF0E; background: transparent; color: #D6EF0E; font-size: 12px; font-weight: 600; cursor: pointer; transition: 0.2s; }
+.m38:hover { background-color: #D6EF0E; color: #090F1D; }
+.m39 { padding-top: 60px; padding-bottom: 80px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 48px; align-items: center; }
+.m40 { position: relative; height: 420px; display: flex; align-items: center; justify-content: center; }
+.m41 { width: 300px; height: 310px; object-fit: cover; border-radius: 20px; position: absolute; left: 0px; bottom: 0px; z-index: 2; }
+.m42 { width: 290px; height: 330px; object-fit: cover; border-radius: 20px; position: absolute; right: 10px; top: 0px; }
+.m43 { width: 280px; height: 290px; object-fit: cover; border-radius: 20px; transform: rotate(-10deg); position: absolute; left: 10px; top: 10px; }
+.m44 { width: 240px; height: 260px; object-fit: cover; border-radius: 20px; position: absolute; right: 50px; bottom: 0px; z-index: 2; }
+.m45 { margin-top: 32px; display: flex; gap: 12px; max-width: 440px; }
+.m46 { flex: 1; background-color: #131E3A; color: #FFFFFF; font-size: 14px; padding: 16px 20px; border-radius: 8px; border: none; outline: none; }
+.m46::placeholder { color: #6B7280; }
+.m47 { padding-top: 40px; padding-bottom: 40px; font-size: 14px; color: #9CA3AF; }
+.m48 { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 48px; }
+.m49 { max-width: 280px; }
+.m50 { line-height: 1.6; }
+.m51 { display: flex; gap: 12px; margin-top: 24px; }
+.m52 { width: 28px; height: 28px; border-radius: 4px; background-color: #FFFFFF; color: #090F1D; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 12px; text-decoration: none; transition: 0.2s; }
+.m52:hover { background-color: #D6EF0E; }
+.m53 { color: #FFFFFF; font-weight: 600; margin-bottom: 16px; }
+.m54 { list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 12px; }
+.m55 { color: #9CA3AF; text-decoration: none; transition: 0.2s; }
+.m55:hover { color: #FFFFFF; }
+.m56 { padding-top: 24px; border-top: 1px solid #2A3441; display: flex; justify-content: space-between; align-items: center; font-size: 12px; }
+.m57 { display: flex; gap: 24px; }
+.m58 { color: #6B7280; font-size: 16px; font-weight: 500; margin-top: 20px; }
+@media (max-width: 768px) { .m8, .m29, .m39, .m48 { grid-template-columns: 1fr; } .m27, .m56 { flex-direction: column; align-items: flex-start; gap: 16px; } }
